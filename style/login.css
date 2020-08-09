@@ -1,0 +1,65 @@
+body {
+    background-image: url(../img/layout/otrocozinheiro.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.container{
+    width: 30%;
+}
+
+.divLogin{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 30px 30px;
+    width: 92%;
+}
+
+.btnForm {
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    padding: .45rem 0;
+    margin-top: 10px;
+    border: none;
+    background-color: #bb1f23;
+}
+
+#numMesa{
+    width: 70px;
+    margin: 0 auto;
+}
+
+
+/*----- Media Queries --------*/
+@media only screen and (max-width: 1125px) {
+
+
+    .container {
+        width: 40%;
+    }
+
+}
+
+@media only screen and (max-width: 667px) {
+    .container {
+        width: 75%;
+    }
+
+    .one {
+        margin-left: 15%;
+    }
+
+    .senha {
+        margin-left: 25%;
+    }
+
+}
+
+@media only screen and (max-width: 568px) {
+
+    .container {
+        margin-top: 6rem;
+    }
+
+}

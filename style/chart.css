@@ -1,0 +1,75 @@
+.containerChart {
+    background-color: white;
+    box-shadow: 2px 2px 6px #aaaaaa;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.barTitle {
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 6px #aaaaaa;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.barTitle h5 {
+    font-weight: bold;
+    margin: 0 0;
+}
+
+.icons a {
+    color: black;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.icons a:hover {
+    color: #bb1f23;
+}
+
+
+form {
+    display: inline-block;
+}
+
+input {
+    padding: 4px 15px 4px 5px;
+}
+
+#btnToDoList {
+    display: inline-block;
+    background-color: #bb1f23;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2px;
+    padding: 5px 15px;
+}
+
+#button:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    padding: 5px;
+    color: #000;
+}
+
+ol li:nth-child(even) {
+    background: #dfdfdf;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+li:hover {
+    cursor: pointer;
+}
